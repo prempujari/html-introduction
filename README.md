@@ -4,7 +4,9 @@ This document will explain the code in index.html and if you go to [http://premp
 
 Your **first step** is to get a text editor. There are two text editors I recommend. I personally use [Atom Text Editor] (https://atom.io). My second favorite text editor is [Sublime] (http://www.sublimetext.com) .
 
-Your **second step** is to open the test editor and start typing away. Make sure you save your file as filename.html.
+Your **second step** is to open the test editor and start typing away. Make sure you save your file as filename.html
 
 ###HTML 101 begins here:
 `<!DOCTYPE html>`
+
+The Document Type should be the first line of coding before you start writing your HTML. This is not HTML but it tells the web browser that you are writing in HTML5
