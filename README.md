@@ -1,25 +1,32 @@
-# Learn HTML
-## This project is to teach others HTML
-This document will explain the code in index.html and if you go to [http://prempujari.github.io/html101/ ] ( http://prempujari.github.io/html101/) you can see some of the code in action.
+# HTML 101
 
-Your **first step** is to get a text editor. There are two text editors I recommend. I personally use [Atom Text Editor] (https://atom.io). My second favorite text editor is [Sublime] (http://www.sublimetext.com) .
+## Before You Begin
+Install an Interactive Development Environment (IDE) editor, such as [Atom](https://atom.io) or [Sublime Text](http://www.sublimetext.com). These are some of the most popular choices, but there are many different options available.
 
-Your **second step** is to open the test editor and start typing away. Make sure you save your file as filename.html
+## Getting Started
+Once you have installed an IDE editor, create an **index.html** file as the starting point for the directory.
 
-###HTML 101 begins here:
+### Document Type
+A document type must be declared at the start of your index.html file. By declaring the document type you are telling the internet web browser to recognize the file as Hyper Text Markup Language, otherwise known as HTML.
+
 ```html
-<!DOCTYPE html>
+<!doctype html>
 ```
 
-The Document Type should be the first line of coding before you start writing your HTML. This is not HTML but it tells the web browser that you are writing in HTML5
-
-Our next step is to add the HTML Tag along with the language declaration.
+### HTML Element
+Add an HTML element below the document type. The HTML element wraps all of the Hyper Text Markup Language code embedded within it. End the HTML element by inserting a forward slash as shown below.
 
 ```html
-<html lang="en">
-
+<!doctype html>
+<html>
 </html>
 ```
-Here we created our HTML tag.  The HTML tag tells the browser that this is an HTML document and within the HTML tag all the HTML code is embedded, minus DOCTYPE, which is not HTML.  To close off any tag you use a forward slash (/)
 
-Within the HTML tag we declare the documents language by using lang=" ". This is mainly for search engines and programs to know what language the document is in.  In our case, we declared that English is the language used within this document.
+### Set the Language
+Within the HTML element we can declare the document's language by adding a language attribute to the HTML element. This is primarily to assist search engines and internet web browsers with identifying the language that the document is in. We have declared that the embedded HTML in this file will be in English (en).
+
+```html
+<!doctype html>
+<html lang="en">
+</html>
+```
