@@ -53,6 +53,12 @@ The following tags can go within the head tag:
 ### Meta Tag
 Metadata is data that describes other data. The Meta tag provides the metadata of the document. The Meta tag can tell the browser how to display content, provide key words for search engines.
 
+The following attributes can be used within the Meta tag:
++ `charset` - Character encoding for the document
++ `content` - gives the value associated with the `name` or `http-equiv` attributes
++ `http-equiv` - provides a http header for the value of the `content` attribute. 
++ `name` - specifies a name for the metadata
+
 ### Set the character encoding
 We set the character encoding within the meta tag. In this example we will set the character encoding to [Unicode](http://unicode.org).
 
