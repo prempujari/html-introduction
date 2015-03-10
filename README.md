@@ -23,7 +23,7 @@ Add an HTML tag below the document type. The HTML element wraps all of the Hyper
 ```
 
 ### Set the Language
-Within the HTML tag we can declare the document's language by adding a language attribute to the HTML tag. This is primarily to assist search engines and internet web browsers with identifying the language that the document is in. We have declared that the embedded HTML in this file will be in English (en).
+Within the HTML tag we can declare the document's language by adding a language attribute to the HTML tag. This is primarily to assist search engines and Internet web browsers with identifying the language that the document is in. We have declared that the embedded HTML in this file will be in English (en).
 
 ```html
 <!doctype html>
@@ -51,15 +51,15 @@ The following tags can go within the head tag:
 
 
 ### Meta Tag
-Metadata is data that describes other data. The Meta tag provides the metadata of the document. The Meta tag can tell the browser how to display content, provide key words for search engines.
+Metadata is data that describes other data. The Meta tag provides the metadata of the document.  The Meta tag can tell the browser how to display content, provide key words for search engines.
 
 The following attributes can be used within the Meta tag:
 + `charset` - Character encoding for the document
 + `content` - gives the value associated with the `name` or `http-equiv` attributes
-+ `http-equiv` - provides a http header for the value of the `content` attribute. 
++ `http-equiv` - provides a http header for the value of the `content` attribute.
 + `name` - specifies a name for the metadata
 
-### Set the character encoding
+### Set the Character Encoding
 We set the character encoding within the meta tag. In this example we will set the character encoding to [Unicode](http://unicode.org).
 
 ```html
@@ -67,6 +67,18 @@ We set the character encoding within the meta tag. In this example we will set t
 <html lang ="en">
 <head>
 <meta charset="utf-8">
+</head>
+</html>
+```
+### Title Tag
+The Title tag sets the Title of the HTML document in the browsers tool bar, favorites and search engines. This tag is required in every HTML document.
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf=8">
+<title>Learn HTML</title>
 </head>
 </html>
 ```
