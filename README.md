@@ -31,7 +31,7 @@ Within the HTML tag we can declare the document's language by adding a language 
 </html>
 ```
 ### Head tag
-The Head element provides information about the document. This element can contain the title of the document, meta information, scripts and style.
+The Head tag provides information about the document. This element can contain the title of the document, meta information, scripts and style.
 
 ```html
 <!doctype html>
@@ -82,3 +82,19 @@ The Title tag sets the Title of the HTML document in the browsers tool bar, favo
 </head>
 </html>
 ```
+
+### Body Tag
+The body tag defines the body of the HTML document. This is where the visual part of the website.
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf=8">
+<title> Learn HTML </title>
+</head>
+<body>
+</body>
+</html>
+```
+The rest of this tutorial will be within the body tags. 
