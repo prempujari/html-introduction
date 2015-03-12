@@ -97,4 +97,19 @@ The body tag defines the body of the HTML document. This is where the visual par
 </body>
 </html>
 ```
-The rest of this tutorial will be within the body tags. 
+The rest of this tutorial will be within the body tags.
+
+## Body of the Web Page
+
+### Header Tag
+There are six headers:
+
+```html
+<h1></h1> Header 1
+<h2></h2> Header 2
+<h3></h3> Header 3
+<h4></h4> Header 4
+<h5></h5> Header 5
+<h6></h6> Header 6
+```
+Header 1 is the largest while header 6 is the smallest. Headers are used for introductory or links. 
